@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_stw_5_stc_e1e1e1_so_f6f6f6" android:state_pressed="true"/>
+    <item android:drawable="@drawable/shape_stw_5_stc_e1e1e1_so_f6f6f6" android:state_selected="true"/>
+    <item android:drawable="@drawable/shape_stw_5_stc_e1e1e1_so_f6f6f6" android:state_focused="true"/>
+    <item android:drawable="@drawable/shape_stw_5_stc_e1e1e1_so_ffffff"/>
+</selector>

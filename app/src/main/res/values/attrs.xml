@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="roundedimageview_border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularImage">
+        <attr name="image_border_width" format="dimension" />
+        <attr name="image_border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandDrawable" format="reference" />
+        <attr name="collapseDrawable" format="reference" />
+    </declare-styleable>
+
+
+    <!--新手引导模块-->
+    <declare-styleable name="WaveView">
+        <attr name="above_wave_color" format="color" />
+        <attr name="blow_wave_color" format="color" />
+        <attr name="progress" format="integer" />
+        <attr name="wave_length" format="enum">
+            <enum name="large" value="1" />
+            <enum name="middle" value="2" />
+            <enum name="little" value="3" />
+        </attr>
+        <attr name="wave_height" format="enum">
+            <enum name="large" value="1" />
+            <enum name="middle" value="2" />
+            <enum name="little" value="3" />
+        </attr>
+        <attr name="wave_hz" format="enum">
+            <enum name="fast" value="1" />
+            <enum name="normal" value="2" />
+            <enum name="slow" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="waveViewStyle" format="reference" />
+    </declare-styleable>
+    <!--新手引导模块-->
+
+    <!-- 个人空间模块 -->
+    <declare-styleable name="SwitchButton">
+        <attr name="sb_onDrawable" format="reference" />
+        <attr name="sb_offDrawable" format="reference" />
+        <attr name="sb_thumbDrawable" format="reference" />
+        <attr name="sb_thumb_margin" format="dimension|reference" />
+        <attr name="sb_thumb_marginTop" format="dimension|reference" />
+        <attr name="sb_thumb_marginBottom" format="dimension|reference" />
+        <attr name="sb_thumb_marginLeft" format="dimension|reference" />
+        <attr name="sb_thumb_marginRight" format="dimension|reference" />
+        <attr name="sb_thumb_width" format="dimension|reference" />
+        <attr name="sb_thumb_height" format="dimension|reference" />
+        <attr name="sb_onColor" format="color|reference" />
+        <attr name="sb_offColor" format="color|reference" />
+        <attr name="sb_thumbColor" format="color|reference" />
+        <attr name="sb_thumbPressedColor" format="color|reference" />
+        <attr name="sb_animationVelocity" format="integer" />
+        <attr name="sb_radius" format="integer" />
+        <attr name="sb_measureFactor" format="float" />
+        <attr name="sb_insetLeft" format="dimension|reference" />
+        <attr name="sb_insetRight" format="dimension|reference" />
+        <attr name="sb_insetTop" format="dimension|reference" />
+        <attr name="sb_insetBottom" format="dimension|reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ToolBarView">
+        <attr name="title_top" format="string" />
+        <attr name="text_right" format="string" />
+        <attr name="layout_right" format="reference" />
+        <attr name="hide_nav_back" format="boolean" />
+        <attr name="toolbar_background" format="reference|color"></attr>
+    </declare-styleable>
+    <declare-styleable name="SpecialNumShowView">
+        <attr name="multiDistance" format="dimension" />
+        <attr name="numberColor" format="enum">
+            <enum name="red" value="0"/>
+            <enum name="yellow" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="CircularPoint">
+        <attr name="circular_point_color" format="color" />
+    </declare-styleable>
+
+    <attr name="entrySummaries" format="reference" />
+
+    <declare-styleable name="IjkListPreference">
+        <attr name="entrySummaries" />
+    </declare-styleable>
+</resources>

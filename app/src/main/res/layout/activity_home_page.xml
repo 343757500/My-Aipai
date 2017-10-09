@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/actionbar_customview_home"
+        android:id="@+id/ch"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_content"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:paddingEnd="40dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="40dp"
+        android:paddingStart="2dp"
+        app:tabGravity="center"
+        app:tabIndicatorColor="#00000000"
+        app:tabMinWidth="0dp"
+        app:tabMode="scrollable"
+        app:tabPaddingEnd="15dp"
+        app:tabPaddingStart="15dp"
+        app:tabSelectedTextColor="#fea700"
+        app:tabTextAppearance="@style/HomePageTabLayoutTextAppearance"
+        app:tabTextColor="#323232" />
+
+
+    <View
+        android:id="@+id/line_below_tab"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tl_content"
+        android:background="@color/home_tab_line_color" />
+
+    <ImageView
+        android:id="@+id/iv_add_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_00000000_19000000"
+        android:src="@drawable/home_page_edit_tab" />
+
+
+    <FrameLayout
+        android:id="@+id/fl_vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/line_below_tab" />
+
+    <!--<android.support.v4.view.ViewPager-->
+    <!--android:id="@+id/vp_content"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_below="@id/line_below_tab" />-->
+
+    <ImageView
+        android:id="@+id/iv_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/line_below_tab"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="-8dp"
+        android:background="@drawable/home_page_guide"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_guide"
+        android:layout_alignEnd="@+id/iv_guide"
+        android:layout_alignRight="@+id/iv_guide"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/selector_f59c00_dc8c00_24"
+        android:paddingBottom="7dp"
+        android:paddingEnd="17dp"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:paddingStart="17dp"
+        android:paddingTop="7dp"
+        android:text="知道了"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:visibility="gone" />
+
+    </RelativeLayout>
+    <!--f59c00-->
+    <!--dc8c00-->
+</LinearLayout>

@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'com.neenbedankt.android-apt'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "mymap.my_aipai"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+
+}
+
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:recyclerview-v7:'
+    compile 'com.android.support:support-v4:'
+    compile 'com.android.support:design:25.2.0'
+    //友盟库
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.zhouyou:rxeasyhttp:2.0.1'
+    //okhttputils
+    compile 'com.zhy:okhttputils:2.6.2'
+    //springview
+    compile 'com.liaoinstan.springview:library:1.2.6'
+    compile files('libs/xstream-1.4.7.jar')
+    compile 'org.xutils:xutils:3.3.40'
+    // 轮播图实现
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+    // 图片请求picasso
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    //bibi直播框架
+    compile 'com.google.android.exoplayer:exoplayer:r2.0.4'
+    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.7.5'
+    compile 'tv.danmaku.ijk.media:ijkplayer-armv5:0.7.5'
+    compile 'tv.danmaku.ijk.media:ijkplayer-x86:0.7.5'
+    /*  当你在UI线程想执行耗时操作,直接用ThreadHelper.runOnAsyncThread(your runnable); 或者ThreadHelper.runOnBackgroundThread(your runnable);
+            当你在非UI线程想对UI进行操作可以执行ThreadHelper.runOnUiThread(your runnable);*/
+    compile 'com.github.whimaggot:Android_ThreadHelper:1.0'
+    compile project(':vitamio')
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    >
+    <item android:drawable="@drawable/zhw_coin_icon1" android:duration="200"></item>
+    <item android:drawable="@drawable/zhw_coin_icon2" android:duration="200"></item>
+    <item android:drawable="@drawable/zhw_coin_icon3" android:duration="200"></item>
+    <item android:drawable="@drawable/zhw_coin_icon4" android:duration="200"></item>
+    <item android:drawable="@drawable/zhw_coin_icon5" android:duration="200"></item>
+</animation-list>

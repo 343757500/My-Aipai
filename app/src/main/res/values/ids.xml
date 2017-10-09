@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="offline_download_imagebutton_tag_download_task" type="id"></item>
+    <item name="offline_download_imagebutton_tag_content_view" type="id"></item>
+    <item name="offline_download_imagebutton_tag_video_info" type="id"></item>
+    <item name="offline_download_layout_item_root_tag_download_task" type="id"></item>
+    <item name="offline_download_layout_item_root_tag_video_info" type="id"></item>
+
+    <item name="player_tab_middle_menu01" type="id"></item>
+    <item name="player_tab_middle_menu02" type="id"></item>
+    <item name="player_tab_middle_menu03" type="id"></item>
+    <item name="player_tab_middle_menu04" type="id"></item>
+
+    <item name="player_tab_middle_content1" type="id"></item>
+    <item name="player_tab_middle_content2" type="id"></item>
+
+    <item name="im_report_click_position" type="id"></item>
+
+    <item name="im_setting_switch_ding" type="id"></item>
+    <item name="im_setting_switch_news" type="id"></item>
+    <item name="im_item_gift_type" type="id"></item>
+    <item name="im_conversation_toast_giftshowview" type="id" />
+
+
+    <item name="toolbar_view" type="id"></item>
+    <item name="home_page_view_pager" type="id" />
+
+
+</resources>

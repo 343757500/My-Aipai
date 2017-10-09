@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="oval"
+       android:useLevel="false" >
+
+    <size
+        android:height="@dimen/dynamic_jiyi_tag_b"
+        android:width="@dimen/dynamic_jiyi_tag_b" />
+
+    <solid android:color="@color/dynamic_jiyi_tag5" />
+    <stroke android:width="@dimen/dynamic_jiyi_tag_outside" android:color="@color/dynamic_jiyi_tag_outside"/>
+
+</shape>

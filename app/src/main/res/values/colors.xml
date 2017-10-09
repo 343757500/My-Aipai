@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- slidingmenu -->
+    <color name="slidingmenu_more_text">#CFCFCF</color>
+
+    <!-- staggeredgridview -->
+    <color name="staggeredgridview_item_game">#DCDCDCDC</color>
+    <color name="staggeredgridview_item_title">#333333</color>
+    <color name="staggeredgridview_item_author_name">#7B7B7B</color>
+
+    <!-- about -->
+    <color name="about_company_net_address">#008AE1</color>
+    <color name="about">#ff9900</color>
+    <color name="about_version_code">#FF9900</color>
+
+    <!-- tab -->
+    <color name="tab_text">#999999</color>
+    <color name="tab_text_selected">#ffffff</color>
+
+    <!-- exit_dialog -->
+    <color name="exit_dialog_hint">#bcbcbc</color>
+    <color name="exit_dialog_btn_nomal">#bcbcbc</color>
+    <color name="exit_dialog_btn_pressed">#818181</color>
+
+    <!-- video_player -->
+    <color name="video_player_text_clarity">#ffff00</color>
+
+    <!-- hockey -->
+    <color name="dialog_btn_cancel_textcolor">#5a2800</color>
+    <color name="btn_bg_normal">#ffce5815</color>
+    <color name="btn_bg_pressed">#ffee5e0c</color>
+
+    <!-- video detail activity -->
+    <color name="video_detail_activity_send_flower_text_normal">#ffb645</color>
+    <color name="video_detail_activity_send_flower_text_pressed">#ffffff</color>
+    <color name="video_detail_activity_send_flower_num_normal">#eeb981</color>
+    <color name="video_detail_activity_send_flower_num_pressed">#ffffff</color>
+    <color name="video_detail_activity_send_flower_bg_normal">#ba4218</color>
+    <color name="video_detail_activity_send_flower_bg_pressed">#db4e1c</color>
+    <color name="video_detail_activity_more_menu_item_bg_normal">#da000000</color>
+    <color name="video_detail_activity_more_menu_item_bg_pressed">#80000000</color>
+
+    <!-- hot game activity -->
+    <color name="hot_game_activity_listview_item_bg_normal">#fff8f7ea</color>
+    <color name="hot_game_activity_listview_item_bg_pressed">#ffffffff</color>
+
+    <!-- show activity -->
+    <color name="show_activity_download_btn_normal">#ffce5815</color>
+    <color name="show_activity_download_btn_pressed">#ffee5e0c</color>
+
+    <!-- yyb sdk download dialog -->
+    <color name="dialog_download_game_cancel_btn_normal">#e2e2e2</color>
+    <color name="dialog_download_game_cancel_btn_pressed">#FFF</color>
+    <!-- um feedback btn  color -->
+    <color name="um_contact_tv">#fea700</color>
+    <color name="um_black">#444444</color>
+    <color name="um_blue">#449cff</color>
+    <color name="um_line_color">#cccccc</color>
+    <color name="um_btn_unable">#c3c3c3</color>
+
+    <color name="list_divider">#339C9A9C</color>
+    <color name="item_text_02">#ff8F8F8F</color>
+
+    <!-- player button selector -->
+    <drawable name="c_btn_um_lefttop_nor">#ffb201</drawable>
+    <drawable name="c_btn_um_lefttop_press">#19000000</drawable>
+
+    <color name="player_button_normal">#00ffffff</color>
+
+    <drawable name="c_trans">#00000000</drawable>
+
+    <color name="player_button_pressed">#80000000</color>
+    <color name="white">#ffffff</color>
+    <color name="litte_red">#EF3B4F</color>
+    <color name="black">#000000</color>
+    <color name="base_shallow_black">#818181</color>
+    <color name="text_tab_title_def">@color/base_shallow_black</color>
+    <color name="base_bg_gray">#EBEBEB</color>
+    <color name="edit_text">@color/black</color>
+    <color name="edit_hint_text">#ffacacac</color>
+    <color name="f2f2f2">#F2F2F2</color>
+    <color name="ffffff">#FFFFFFFF</color>
+    <color name="ff3c00">#ff3c00</color>
+    <color name="f8f8f8">#F8F8F8</color>
+    <color name="f5f5f5">#F5F5F5</color>
+    <color name="d9d9d9">#D9D9D9</color>
+    <color name="dfdfdf">#DFDFDF</color>
+    <color name="c_999999">#999999</color>
+    <color name="c_067bff">#067bff</color>
+    <color name="c_e3e3e3">#e3e3e3</color>
+    <color name="c_fffaf1">#fffaf1</color>
+    <color name="c_323232">#323232</color>
+    <color name="c_b6b6b6">#b6b6b6</color>
+    <color name="c_f578a5">#f578a5</color>
+    <color name="c_f982b0">#f982b0</color>
+    <color name="c_c1c1c1">#c1c1c1</color>
+    <color name="c_e1e1e1">#e1e1e1</color>
+    <color name="c_f5f5f5">#f5f5f5</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_dddddd">#dddddd</color>
+    <color name="c_e7e7e7">#e7e7e7</color>
+    <color name="c_99ffffff">#99ffffff</color>
+    <color name="c_d2d5db">#d2d5db</color>
+    <color name="c_333333">#333333</color>
+    <color name="c_555555">#555555</color>
+    <color name="c_d0d0d0">#d0d0d0</color>
+    <color name="c_fef2ea">#fef2ea</color>
+    <color name="c_efe4dc">#efe4dc</color>
+
+    <!-- title -->
+    <color name="bg_content">#FFFFFF</color>
+    <color name="title_button_press">#10000000</color>
+    <color name="title_font">#FFFFFF</color>
+
+    <color name="pull_to_refresh_text">#8a8a99</color>
+    <color name="pull_to_refresh_bg">#FFFFFF</color>
+
+    <color name="list_divider_color">#dcdcdc</color>
+
+    <color name="bg_grey">#f5f5f5</color>
+    <color name="bg_light_grey">#f2f2f2</color>
+    <color name="bg_light_blue">#50c4e2</color>
+    <color name="bg_trans_grey">#10000000</color>
+    <color name="bg_white">#FFFFFFFF</color>
+    <color name="bg_light_orange">#fffce9</color>
+    <color name="bg_yellow">#ffb201</color>
+    <color name="bg_orange">#fec200</color>
+    <color name="bg_about_true">#fff4c7</color>
+    <color name="bg_about_false">#fffce9</color>
+
+    <!--action bar-->
+    <color name="toolbar_bg">#ffb201</color>
+    <color name="h5_toolbar_bg">#ffffffff</color>
+    <color name="im_conversation_toolbar_bg">#ffffffff</color>
+    <color name="toolbar_text">#ffffff</color>
+    <color name="toolbar_radio_text_checked">#ffb201</color>
+    <color name="toolbar_radio_text_unchecked">#ffffff</color>
+    <color name="toolbar_line">#ffffff</color>
+
+    <color name="font_yellow">#ffb201</color>
+    <color name="font_orange">#fea700</color>
+    <color name="font_grey">#444444</color>
+    <color name="font_blue">#067bff</color>
+    <color name="font_red">#ff0000</color>
+    <color name="font_dark_grey">#323232</color>
+    <color name="bg_trans_light_gey">#f2f3f3f3</color>
+    <color name="font_grey_9">#999999</color>
+    <color name="font_light_grey">#666666</color>
+    <color name="font_white">#FFFFFFFF</color>
+    <color name="font_black">#474747</color>
+    <color name="font_hr_blue">#20abd0</color>
+    <color name="font_hr_green">#a7b651</color>
+    <color name="font_hr_orange">#f76e4f</color>
+    <color name="font_hr_pink">#ff057a</color>
+    <color name="font_hr_purple">#d047d2</color>
+    <color name="font_hr_yellow">#feb043</color>
+
+    <color name="line_grey">#dfdfdf</color>
+    <color name="line_light_grey">#ececec</color>
+    <color name="line_orange">#ffe8b2</color>
+
+    <color name="loading_blue">#87cddf</color>
+    <color name="loading_green">#bccb58</color>
+    <color name="loading_yellow">#f8d95f</color>
+    <color name="loading_red">#fc8d74</color>
+    <color name="loading_pink">#f382b7</color>
+    <color name="loading_purple">#d592e3</color>
+
+    <color name="bg_ibtn_prominent_pressed">#F5F5F5</color>
+
+    <!-- IM -->
+    <color name="im_main_tab_text_normal">#ffffffff</color>
+    <color name="im_main_tab_text_selected">#ffff9c00</color>
+    <color name="im_conversation_top_background">#fffeee</color>
+    <color name="im_conversation_not_top_background">#ffffff</color>
+    <color name="im_login_button_bg_normal">#ffffff</color>
+    <color name="im_login_button_bg_pressed">#fea200</color>
+
+    <color name="group_bg">#FFE3E3E3</color>
+    <color name="group_add_button_text_color">#FFFF9100</color>
+    <color name="gray_text_color">#FFC0C0C0</color>
+    <color name="group_tab_selected_text_color">#FFFFB201</color>
+    <color name="ffcccccc">#FFCCCCCC</color>
+    <color name="fff5f5f5">#FFF5F5F5</color>
+    <color name="ff067bff">#067bff</color>
+    <color name="ffd7d7d7">#FFD7D7D7</color>
+
+    <color name="e6ffffff">#E6FFFFFF</color>
+    <color name="ffffff_f5f5f5">#F5F5F5</color>
+    <color name="ffffff_e5e5e5">#E5E5E5</color>
+    <color name="im_input_dialog_btn_spit_dfdfdf">#DFDFDF</color>
+    <color name="im_input_dialog_edit_color">#323232</color>
+    <color name="im_input_dialog_text_color_1">#323232</color>
+    <color name="im_input_dialog_color_f2f2f2">#f2f2f2</color>
+    <color name="im_input_dialog_color_d9d9d9">#d9d9d9</color>
+    <color name="im_input_dialog_edit_color_hint">#CCCCCC</color>
+    <color name="im_conversation_list_banner_bg_normal">#fffce9</color>
+    <color name="im_conversation_list_banner_bg_pressed">#fff4c7</color>
+
+    <color name="cccccc">#CCCCCC</color>
+    <color name="cccccc_b7b7b7">#B7B7B7</color>
+    <color name="ff0000">#FF0000</color>
+    <color name="ff0000_e50000">#E50000</color>
+    <color name="im_actionbar_btn">#FFE5A001</color>
+    <color name="im_conversation_actionbar_btn">#FFF5F5F5</color>
+    <color name="im_actionbar_search">#FFDCDCDC</color>
+    <color name="dcdcdc">#FFDCDCDC</color>
+    <color name="divider_color">#FFD7D7D7</color>
+    <color name="im_conversation_item_f08d01">#f08d01</color>
+
+    <!-- zone -->
+    <drawable name="zone_trans">#00000000</drawable>
+    <drawable name="zone_nor_pre">#19000000</drawable>
+    <drawable name="zone_nor_pre_f5">#f5f5f5</drawable>
+    <drawable name="zone_drawable_white">#ffffff</drawable>
+
+    <drawable name="zone_4c000000">#000000</drawable>
+
+    <color name="zone_graphview_null">#00000000</color>
+    <color name="zone_white">#ffffff</color>
+    <color name="zone_bg">#f5f5f5</color>
+    <color name="zone_line">#dfdfdf</color>
+    <color name="zone_color_323232">#323232</color>
+    <color name="zone_title_orange">#ffb201</color>
+    <color name="zone_ctrans">#00000000</color>
+    <color name="zone_cpre">#19000000</color>
+    <color name="zone_cpre_4c">#4c000000</color>
+    <color name="zone_hint_tv_color9">#999999</color>
+    <color name="zone_hint_tv_color6">#666666</color>
+    <color name="zone_hint_tv_color_c">#cccccc</color>
+    <color name="zone_color_333333">#333333</color>
+    <color name="zone_red">#ff0000</color>
+    <color name="zone_tip_red_e53935">#e53935</color>
+    <color name="zone_color_fec200">#fec200</color>
+    <color name="zone_blue_067bff">#067bff</color>
+    <color name="zone_color_444444">#444444</color>
+    <color name="zone_color_f2f2f2">#f2f2f2</color>
+    <color name="zone_color_f57c00">#f57c00</color>
+    <color name="zone_color_c8e6c9">#c8e6c9</color>
+    <color name="zone_color_ffb201">#ffb201</color>
+    <color name="zone_color_d7d7d7">#d7d7d7</color>
+    <color name="zone_color_fea700">#fea700</color>
+    <color name="zone_color_7b7b7b">#7b7b7b</color>
+    <color name="zone_color_2daf00">#2daf00</color>
+
+
+    <color name="message_center_color_19000000">#19000000</color>
+
+    <!-- webview -->
+    <color name="webview_backgroud">#ffffff</color>
+    <color name="half_black">#7F000000</color>
+
+    <!--to share dialog-->
+    <color name="share_orange">#ffc200</color>
+    <color name="share_orange_dark">#e4ae00</color>
+    <color name="share_grey">@color/zone_hint_tv_color9</color>
+    <color name="share_dark_grey">@color/zone_color_323232</color>
+    <color name="share_white">@color/im_main_tab_text_normal</color>
+
+    <color name="ffb201">#FFB201</color>
+    <color name="e4ae00">#E4AE00</color>
+
+    <!-- login overdue -->
+    <color name="login_overdue_weixin">#49bd1b</color>
+    <color name="login_overdue_qq">#1da4dd</color>
+    <color name="login_overdue_sina">#d14141</color>
+    
+    <!-- 全局  -->
+    <color name="main_ffb201_style_yellow">#ffb201</color>
+    <!--主色调-->
+    <color name="main_323232_title_black">#323232</color>
+    <!--标题级别黑字-->
+    <color name="main_666666_secondary_black">#666666</color>
+    <!--普通段落黑字-->
+    <color name="main_99999_thirdly_black">#999999</color>
+    <!--辅助信息黑字-->
+    <color name="main_e1e1e1_line_grey">#e1e1e1</color>
+    <!--线条-->
+    <color name="main_f5f5f5_bg_grey">#f5f5f5</color>
+    <!--背景-->
+
+    <color name="main_fea700_word_yellow">#fea700</color>
+    <!--文字的黄色-->
+    <color name="main_3cbd10_word_green">#3cbd10</color>
+    <!--文字的绿色-->
+    <color name="main_ff0000_word_red">#ff0000</color>
+    <!--文字的红色-->
+
+    <color name="dynamic_jiyi_tag1">#B56A81BB</color>
+    <color name="dynamic_jiyi_tag2">#9E6A81BB</color>
+    <color name="dynamic_jiyi_tag3">#CC6A81BB</color>
+    <color name="dynamic_jiyi_tag4">#C46A81BB</color>
+    <color name="dynamic_jiyi_tag8">#B56A81BB</color>
+    <color name="dynamic_jiyi_tag7">#CC6A81BB</color>
+    <color name="dynamic_jiyi_tag6">#9E6A81BB</color>
+    <color name="dynamic_jiyi_tag5">#AB6A81BB</color>
+
+    <color name="dynamic_jiyi_tag_outside">#66FFFFFF</color>
+    <color name="dynamic_jiyi_tag_press">#33000000</color>
+    <color name="dynamic_jiyi_tag_text_add">#322f64</color>
+    <color name="dynamic_jiyi_tag_text_normal">#FFFFFF</color>
+    <color name="dynamic_jiyi_title">#0d0839</color>
+    <color name="paidashi_text_color">#444444</color>
+
+    <color name="live_rank_price_color">#ff4e00</color>
+    <color name="live_rank_nickname_color">#232323</color>
+    <color name="live_rank_nickname_color_high_light">#ff5f1b</color>
+
+    <color name="video_quality_item_selector">#CC000000</color>
+
+    <color name="home_tab_line_color">#ffededed</color>
+    <color name="b42c1a">#b42c1a</color>
+    <color name="half_b42c1a">#7fb42c1a</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="light_gray">#AFFFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="ijk_color_blue_main">@color/ijk_color_blue_500</color>
+    <color name="ijk_color_blue_50">#E3F2FD</color>
+    <color name="ijk_color_blue_100">#BBDEFB</color>
+    <color name="ijk_color_blue_200">#90CAF9</color>
+    <color name="ijk_color_blue_300">#64B5F6</color>
+    <color name="ijk_color_blue_400">#42A5F5</color>
+    <color name="ijk_color_blue_500">#2196F3</color>
+    <color name="ijk_color_blue_600">#1E88E5</color>
+    <color name="ijk_color_blue_700">#1976D2</color>
+    <color name="ijk_color_blue_800">#1565C0</color>
+    <color name="ijk_color_blue_900">#0D47A1</color>
+
+    <color name="ijk_transparent_dark">#77000000</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_height"
+                android:background="@color/toolbar_bg"
+                android:tag="skin:toolbar_bg:background">
+
+    <ImageButton
+        android:id="@+id/ibtn_more"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_00000000_19000000"
+        android:paddingLeft="@dimen/actionbar_normal_shadow_padding"
+        android:paddingRight="@dimen/actionbar_normal_shadow_padding"
+        android:src="@drawable/actionbar_more_btn"/>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/ibtn_more"
+        android:src="@drawable/actionbar_logo"/>
+
+    <ImageButton
+        android:id="@+id/ibtn_pc_aipai"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_00000000_19000000"
+        android:paddingLeft="@dimen/actionbar_normal_shadow_padding"
+        android:paddingRight="@dimen/actionbar_normal_shadow_padding"
+        android:src="@drawable/pc_btn_normal"/>
+
+</RelativeLayout>

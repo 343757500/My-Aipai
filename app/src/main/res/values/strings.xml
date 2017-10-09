@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">爱拍原创</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="content_description">Image not found</string>
+
+    <string name="umeng_channel">官方</string>
+
+    <!-- aipai_splash_activity -->
+    <string name="version_category">正式版</string>
+
+    <!-- tab-->
+    <string name="tab_dynamic">动态</string>
+    <string name="tab_discover">推荐</string>
+    <string name="tab_im">Hi</string>
+    <string name="tab_mine">我的</string>
+    <string name="tab_search">搜索</string>
+    <string name="tab_live_broadcast">直播</string>
+    <string name="tab_rank_list">榜单</string>
+
+
+    <!-- network -->
+    <string name="network_loading">正在请求数据...</string>
+    <string name="netword_error">加载失败，请稍后再试</string>
+    <string name="refresh_success">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="loading_error">加载失败, </string>
+    <string name="loading_retry">重新载入>> </string>
+    <string name="lading_error_btn_retry">刷新</string>
+    <string name="network_unconnected">重新连接</string>
+    <string name="loading_no_more_data">到底了</string>
+    <string name="network_request_fail">请求失败</string>
+    <string name="no_channel_data_hint">该专区暂未开放，你可以到首页逛逛吧！</string>
+    <string name="no_network">当前无网络连接</string>
+    <string name="dialog_no_network">木有网络连接，检查一下吧！</string>
+    <string name="dialog_check_network">检查网络设置</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_no_wifi">当前为非WIFI网络，是否继续播放？</string>
+    <string name="dialog_continue">继续</string>
+    <string name="no_network_hint">似乎网络中断了哦~</string>
+    <string name="mobile_network_hint">WIFI网络已断开，即将使用2G/3G/4G网络播放</string>
+    <string name="switch_to_wifi_hint">检测到WIFI网络，已自动为你切换</string>
+    <string name="network_retry_again">网络不给力，再来一次吧！</string>
+    <string name="loading_hint">正在加载...</string>
+
+    <!-- slidingmenu -->
+    <string name="slidingmenu_about">关于爱拍原创®</string>
+    <string name="slidingmenu_top_title">更多专区</string>
+    <string name="slidingmenu_recommend_install">拍友推荐</string>
+    <string name="slidingmenu_login_account">拍子号/邮箱</string>
+    <string name="slidingmenu_login_password">密码</string>
+    <string name="slidingmenu_login">登录</string>
+    <string name="slidingmenu_regist">快速注册</string>
+    <string name="slidingmenu_qq_login">QQ登录</string>
+    <string name="slidingmenu_forget_password">忘记密码</string>
+    <string name="slidingmenu_please_input_account">请输入拍子号/邮箱/手机号</string>
+    <string name="slidingmenu_please_input_password">请输入密码</string>
+    <string name="slidingmenu_logining">登录中...</string>
+    <string name="slidingmenu_account_error">账号输入有误</string>
+    <string name="slidingmenu_login_fail_times">失败次数过多，请稍后登录。</string>
+    <string name="slidingmenu_login_fail">登录失败</string>
+    <string name="slidingmenu_login_request_fail">网络连接失败</string>
+
+    <!-- about -->
+    <string name="activity_about_title">关于DNF视频秀</string>
+    <string name="about">爱拍原创是中国最大的达人原创视频社区、最好的视频创作软件“拍大师”官网，分享快乐的第一品牌！</string>
+    <string name="version_code">版本：1.0.0</string>
+    <string name="company_name">©广州爱拍网络科技有限公司</string>
+    <string name="company_net_address">www.aipai.com</string>
+    <string name="copyrightURL">http://www.aipai.com</string>
+
+    <!-- exit_dialog -->
+    <string name="exit_dialog_hint">你确定退出 爱拍原创？</string>
+    <string name="exit_dialog_yes">退出</string>
+    <string name="exit_dialog_no">取消</string>
+
+    <!-- hockey -->
+    <string name="crash_dialog_title">数据错误</string>
+    <string name="crash_dialog_message">更新发生错误，是否发送错误信息？</string>
+    <string name="crash_dialog_negative_button">忽略</string>
+    <string name="crash_dialog_positive_button">发送</string>
+    <string name="download_failed_dialog_title">下载失败</string>
+    <string name="download_failed_dialog_message">无法下载更新文件，是否重试？</string>
+    <string name="download_failed_dialog_negative_button">忽略</string>
+    <string name="download_failed_dialog_positive_button">重试</string>
+    <string name="update_dialog_title">可用更新</string>
+    <string name="update_dialog_message">是否显示更新信息？</string>
+    <string name="update_dialog_negative_button">忽略</string>
+    <string name="update_dialog_positive_button">显示</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="btn_updata">更新</string>
+    <string name="download_cancle_dialog_message2">确定要取消更新下载？</string>
+    <string name="update_dialog_confirm">更新</string>
+
+    <!-- exception_hint-->
+    <string name="no_media_player">没法播放，请先安装视频播放器</string>
+    <string name="no_browser">请先安装浏览器</string>
+
+    <!-- videoplay activity -->
+    <string name="videoplay_exit_pressed_twice">再次按下返回键返回</string>
+    <string name="videoplay_MP4_NORMAL">流畅</string>
+    <string name="videoplay_MP4_HD">标清</string>
+    <string name="videoplay_MP4_HD2">高清</string>
+    <string name="videoplay_MP4_HD_720">高清</string>
+    <string name="videoplay_MP4_HD_1080">超清</string>
+    <string name="video_noError_hint">连接异常，正在重新连接...</string>
+
+    <!-- search avtivity-->
+    <string name="search_activity_btn">搜</string>
+    <string name="search_activity_no_result">没有找到结果，请换个关键词试试吧</string>
+    <string name="search_activity_no_key_word">请输入关键字</string>
+    <string name="search_key_word_activity_title">搜索</string>
+    <string name="search_result_activity_title">搜索</string>
+    <string name="search_search_type_mobile">手游</string>
+    <string name="search_search_type_pc">PC原创</string>
+
+    <!-- recommend install activity -->
+    <string name="recommend_install_activity_title">拍友推荐</string>
+    <string name="recommend_install_activity_app_paidashi">拍大师</string>
+    <string name="recommend_install_activity_app_paidashi_sort">视频录像</string>
+    <string name="recommend_install_activity_app_paidashi_size">15.4M</string>
+    <string name="recommend_install_activity_app_paidashi_introduction">最流行的移动视频创作工具。功能十分简单好用：屏幕录像、摄像头录像、快速视频剪辑、酷炫滤镜特效、一键轻松分享等。</string>
+    <string name="recommend_install_activity_app_paidashi_download_url">http://update.lieyou.com/apps/com.aipai.paidashi/android/version/paidashi.apk</string>
+    <string name="recommend_install_activity_app_paidashi_package_name">com.aipai.paidashi</string>
+    <string name="recommend_install_activity_app_lieyou">猎游</string>
+    <string name="recommend_install_activity_app_lieyou_sort">游戏市场</string>
+    <string name="recommend_install_activity_app_lieyou_size">3.8</string>
+    <string name="recommend_install_activity_app_lieyou_introduction">靠谱找手游第一APP！新游热游每日速递、高速下载直达游戏、观享最酷手游达人精彩视频——找手游不再坑爹。</string>
+    <string name="recommend_install_activity_app_lieyou_download_url">http://update.lieyou.com/apps/com.lieyou.android/android/version/LieYou.apk</string>
+    <string name="recommend_install_activity_app_lieyou_package_name">com.lieyou.android</string>
+    <string name="recommend_insatll_activity_app_download">下载</string>
+    <string name="recommend_insatll_activity_app_open">打开</string>
+    <string name="recommend_install_activity_app_install">安装</string>
+    <string name="recommend_install_activity_download_fail">下载失败</string>
+    <string name="recommend_install_activity_start_download">开始下载</string>
+    <string name="recommend_install_activity_app_downloading">下载中</string>
+    <string name="recommend_install_activity_toast_downloading">正在下载</string>
+
+    <!-- option_menu -->
+    <string name="menu_home">回到App首页</string>
+    <string name="menu_recommend">拍友推荐</string>
+    <string name="menu_about">关于我们</string>
+    <string name="menu_haozhaoli">玩家号召力榜</string>
+    <string name="menu_signin">签到领奖</string>
+    <string name="menu_annual_reward">风云榜评选</string>
+    <string name="menu_disable_push_msg">关闭消息推送</string>
+    <string name="menu_enable_push_msg">开启消息推送</string>
+    <string name="menu_toast_disable_push_msg">关闭成功</string>
+    <string name="menu_toast_enable_push_msg">开启成功</string>
+    <string name="menu_exit">退出爱拍原创</string>
+
+    <!-- video detail activity -->
+    <string name="video_detail_activity_title">视频播放</string>
+    <string name="video_detail_activity_load_error">加载失败，点击刷新</string>
+    <string name="video_detail_activity_no_comment">暂无评论</string>
+    <string name="video_detail_activity_tab2">相关推荐</string>
+    <string name="video_detail_activity_tab3">评论</string>
+    <string name="video_detail_activity_second">秒</string>
+    <string name="video_detail_activity_notice_board">手机端暂未开放送花、送礼、打赏等功能，请访问爱拍网站www.aipai.com使用。</string>
+    <string name="video_detail_activity_btn_comment">评论</string>
+    <string name="video_detail_activity_comment_empty">评论内容不能为空</string>
+    <string name="video_detail_activity_comment_too_short">你输入的文字太少</string>
+    <string name="video_detail_activity_comment_too_long">你输入的文字超过了500个</string>
+    <string name="video_detail_activity_comment_success">评论成功</string>
+    <string name="video_detail_activity_reply_success">回复成功</string>
+    <string name="video_detail_activity_reply">回复</string>
+    <string name="video_detail_activity_comment_hint">说点什么</string>
+    <string name="video_detail_activity_get_paidan_fail">获取收藏失败</string>
+    <string name="video_detail_activity_collection_success">收藏成功</string>
+    <string name="video_detail_activity_remove_collection_success">移除成功</string>
+    <string name="video_detail_activity_collection_fail">收藏失败！</string>
+    <string name="video_detail_activity_dialog_title_flower">送花</string>
+    <string name="video_detail_activity_dialog_recharge">充值</string>
+    <string name="video_detail_activity_dialog_btn_cancle">取消</string>
+    <string name="video_detail_activity_send_flower_success">送花成功</string>
+    <string name="video_detail_activity_send_flower_fail_7501">你的鲜花道具已经过期了喔!</string>
+    <string name="video_detail_activity_send_flower_fail_7500">还木有选择送花数量哦！</string>
+    <string name="video_detail_activity_send_flower_fail_7505">你还没有鲜花道具呢!</string>
+    <string name="video_detail_activity_send_flower_fail_7506">不能给自己的作品送鲜花喔^^!</string>
+    <string name="video_detail_activity_send_flower_fail_other">网络不给力，再来一次吧!</string>
+    <string name="video_detail_activity_send_reward">打赏</string>
+    <string name="video_detail_activity_send_reward_success">打赏成功</string>
+    <string name="video_detail_activity_send_reward_fail">打赏失败</string>
+    <string name="video_detail_activity_add_idol_success">添加粉丝成功</string>
+    <string name="video_detail_activity_add_idol_fail">添加粉丝失败</string>
+    <string name="video_detail_activity_dialog_add_idol_success_btn_confirm">管理偶像</string>
+    <string name="video_detail_activity_dialog_add_idol_success_btn_cancel">返回</string>
+    <string name="video_detail_activity_dialog_add_idol_success">加入粉丝成功。</string>
+    <string name="video_detail_activity_dialog_add_idol_club_hint">单次打赏≥5000可自动成为铁杆粉丝！</string>
+    <string name="video_detail_activity_dialog_add_paidan_success">成功把作品加入收藏</string>
+    <string name="video_detail_activity_dialog_add_paidan_fail">加入收藏失败</string>
+    <string name="video_detail_activity_dialog_paidan_btn_yes">查看收藏</string>
+    <string name="video_detail_activity_dialog_paidan_btn_no">返回播放</string>
+    <string name="video_detail_activity_dialog_share_title">分享</string>
+    <string name="video_detail_activity_dialog_share_qzone">QQ空间</string>
+    <string name="video_detail_activity_dialog_share_weixin">微信好友</string>
+    <string name="video_detail_activity_dialog_share_weixin_circle">微信朋友圈</string>
+    <string name="video_detail_activity_dialog_share_qq">QQ好友</string>
+    <string name="video_detail_activity_dialog_share_sina_weibo">新浪微博</string>
+    <string name="video_detail_activity_dialog_share_tecent_weibo">腾讯微博</string>
+    <string name="video_detail_activity_keyboard_comment_hint">我有话要讲···</string>
+    <!--<string name="video_detail_activity_dialog_share_video_content">%1$s%2$s %3$s —— %4$s。播放:%5$s</string>-->
+
+    <string name="video_detail_activity_dialog_share_success">分享成功</string>
+    <string name="video_detail_activity_dialog_share_fail">分享失败</string>
+    <string name="video_detail_activity_dialog_share_cancel">分享取消</string>
+    <string name="video_detail_activity_dialog_share_ing">分享中...</string>
+    <string name="video_detail_activity_dialog_share_fail_5005">访问频率超限，可一会儿再试</string>
+    <string name="video_detail_activity_dialog_share_fail_5016">分享信息重复</string>
+    <string name="video_detail_activity_dialog_share_fail_5032">用户不存在或者用户无法在平台发言</string>
+    <string name="video_detail_activity_dialog_share_fail_5035">发布内容频率太高</string>
+    <string name="video_detail_activity_download">下载</string>
+    <string name="video_detail_activity_not_cached">离线看</string>
+    <string name="video_detail_activity_caching">离线中</string>
+    <string name="video_detail_activity_cached">已离线</string>
+    <string name="video_detail_activity_no_sd_card">未发现可以储存设备，请插入sd卡试试</string>
+    <string name="open_or_create_download_database_failed">创建或打开数据库失败</string>
+    <string name="video_detail_remove_paidan">将该作品从收藏移除吗？</string>
+    <string name="text_confirm">确认</string>
+    <string name="text_cancel">取消</string>
+    <string name="video_detail_add_paidan_fail">网络不给力，收藏失败！</string>
+    <string name="video_detail_remove_paidan_fail_network">网络不给力，移除失败！</string>
+    <string name="video_detail_remove_paidan_fail">移除失败！</string>
+    <string name="send_gift_failed">赠送失败！</string>
+    <string name="video_detail_activity_no_download">(⊙﹏⊙)该游戏小编正在更新下载包，敬请期待~</string>
+    <string name="video_detail_acitivtiy_know">我知道了</string>
+    <string name="video_detail_activity_dialog_add_restore_success">收藏成功</string>
+    <string name="video_detail_activity_dialog_share_to_friend">如此碉堡视频，给小伙伴也来一发？</string>
+    <string name="video_detail_activity_dialog_btn_must">必须滴</string>
+    <string name="video_detail_activity_dialog_add_fun_success">你已经成功加入他的粉丝团，有特权哦~</string>
+    <string name="video_detail_activity_dialog_someone_tobe_the_fisrt_of_fav">%1$s正在角逐爱拍红人热度榜</string>
+    <string name="video_detail_activity_dialog_btn_give_new_fan">为他拉粉</string>
+    <string name="video_detail_activity_dialog_send_gift_success">你的大礼已经成功送作者，等待惊喜吧！</string>
+    <string name="video_detail_activity_dialog_show">土豪一次不容易，炫耀一把！</string>
+    <string name="video_detail_activity_dialog_show_better">得瑟一下！</string>
+
+    <!-- apk download -->
+    <string name="advertisement_dialog_hint">已下载</string>
+    <string name="advertisement_dialog_btn_yes">立即安装</string>
+    <string name="advertisement_dialog_btn_no">重新下载</string>
+    <string name="advertisement_apk_downloading">正在下载</string>
+    <string name="advertisement_apk_start_download">开始下载</string>
+    <string name="advertisement_dialog_start_game_hint">已安装</string>
+    <string name="advertisement_dialog_start_game_yes_btn">现在启动</string>
+    <string name="advertisement_dialog_start_game_no_btn">取消</string>
+    <string name="advertisement_dialog_download_ad_hint">下载爱拍推荐</string>
+    <string name="advertisement_dialog_download_ad_yes">确定下载</string>
+    <string name="advertisement_dialog_download_ad_no">取消</string>
+    <string name="advertisement_dialog_download_hint_without_filename">是否确定下载？</string>
+    <string name="advertisement_dialog_start_game_hint_without_filename">已安装该应用</string>
+    <string name="advertisement_dialog_hint_without_filename">已下载该应用</string>
+    <string name="downloadsdk_start_failed_existed">文件已经存在，任务添加失败</string>
+    <string name="downloadsdk_start_failed_busy">前一个操作还在执行</string>
+    <string name="add_download_task_failed">添加任务失败</string>
+    <string name="download_failed">下载失败</string>
+    <string name="download_no_wifi">当前使用非WIFI网络，是否继续下载？</string>
+
+    <!-- reward activity -->
+    <string name="reward_activity_input_title">你的爱拍账号(领奖用):</string>
+    <string name="reward_activity_btn_commit">提交</string>
+    <string name="reward_activity_btn_go_home_page">进入爱拍APP</string>
+    <string name="reward_activity_loading_pic_error">加载图片失败</string>
+    <string name="reward_activity_please_input_bid">请输入拍子号或邮箱</string>
+    <string name="reward_activity_dialog_btn_comfirm">我知道了</string>
+    <string name="reward_activity_dialog_msg_vip">请去网站开通爱拍VIP领奖。</string>
+    <string name="reward_activity_dialog_msg_2">（将在网站公布并通知本人）</string>
+    <string name="reward_activity_dialog_commiting">正在提交...</string>
+    <string name="reward_activity_dialog_load_pic_error">加载图片失败</string>
+    <string name="reward_activity_account_title">领奖拍子号/邮箱:</string>
+
+    <!-- user rank activity -->
+    <string name="user_rank_activity_action_bar_title">玩家移动号召力榜</string>
+    <string name="user_rank_activity_haozhaoli_share_content">《爱拍玩家移动号召力》有奖评选火热进行中！麻烦大家进爱拍APP http://app.aipai.com/ 给我点个赞吧(@^_^@)，谢谢啦！我拍子号是%1$s，点赞后奖励很丰厚喔！http://www.aipai.com/news_id-47720.html?aipaiMobile=a</string>
+
+    <!-- annual reward activity -->
+    <string name="annual_reward_activity_title1">风云榜年度大奖评选</string>
+    <string name="annual_reward_activity_vote_info">活动介绍</string>
+    <string name="annual_reward_activity_vote_settings">奖项设置</string>
+    <string name="annual_reward_activity_vote_game">全部获奖名单</string>
+    <string name="annual_reward_activity_request_video_info_fail">获取视频信息失败</string>
+    <string name="annual_reward_activity_loading_hint">正在加载...</string>
+    <string name="annual_reward_activity_more_menu_fengyunbang_home">风云榜首页</string>
+    <string name="annual_reward_activity_more_menu_huodong_introduce">活动介绍</string>
+    <string name="annual_reward_activity_more_menu_reward_setting">奖项设置</string>
+    <string name="annual_reward_activity_more_menu_all_reward">我要投票</string>
+    <string name="annual_reward_activity_more_menu_choujiang">立即抽奖</string>
+    <string name="annual_reward_activity_more_menu_back_to_app_home">回到App首页</string>
+
+    <!-- lieyou activity -->
+    <string name="lieyou_actvity_actionbar_title">猎游</string>
+    <string name="lieyou_activity_subscribe">订阅</string>
+    <string name="lieyou_activity_game_catagory_title">探索游戏</string>
+    <string name="lieyou_activity_share_game_content">我在爱拍原创发现了一个好玩的游戏#%1$s#，赶紧加入我和一起玩吧！%2$s</string>
+    <string name="player_tab_download_share_title">第一视频站 - 安卓版IOS版免费下载 - 爱拍</string>
+
+    <!-- 广点通广告-->
+    <string name="gdt_sdk_appid">1101132976</string>
+    <string name="gdt_sdk_splash_ad_id">8863363352250703330</string>
+    <string name="gdt_sdk_interstitial_ad_id">8935420946288631266</string>
+    <string name="gdt_sdk_appwall_id">9007478540326559202</string>
+    <string name="gdt_sdk_banner_id">9079536134364487138</string>
+
+    <!-- idol activity -->
+    <string name="idol_activity_actionbar_title">偶像今日新作</string>
+
+    <!-- register activity -->
+    <string name="register_activity_email_hint">邮箱  如 QQ号@qq.com</string>
+    <string name="register_activity_password_hint">密码  6-32位</string>
+    <string name="register_activity_nickname_hint">昵称  最多8个字符</string>
+    <string name="register_activity_register_btn">注册</string>
+    <string name="register_activity_actionbar_title">注册爱拍</string>
+    <string name="register_activity_wrong_email_format">邮箱格式错误</string>
+    <string name="register_activity_email_already_register">该邮箱已注册</string>
+    <string name="register_activity_wrong_password_length">密码长度需6-32位</string>
+    <string name="register_activity_wrong_nickname_length">昵称最多输入8个字符</string>
+    <string name="register_activity_please_input_email">邮箱不能为空</string>
+    <string name="register_activity_please_input_password">密码不能为空</string>
+    <string name="register_activity_please_input_nickname">昵称不能为空</string>
+    <string name="register_activity_aggree">是否同意《爱拍原创服务协议》</string>
+    <string name="register_activity_register_success">注册成功</string>
+    <string name="register_activity_register_fail">注册失败</string>
+    <string name="register_activity_account_already_used">帐号已被注册</string>
+    <string name="register_activity_aipai_service_protocol_prefix">同意</string>
+    <string name="register_activity_aipai_service_protocol">《爱拍原创服务协议》</string>
+
+    <!-- webview normal activity -->
+    <string name="webview_normal_activity_forget_password">找回密码</string>
+    <string name="webview_normal_activity_qq_login">QQ登录</string>
+    <string name="webview_activity_qq_login_fail">QQ登录失败</string>
+
+    <!-- loginAipai activity -->
+    <string name="login_activity_action_bar_title">登录爱拍通行证</string>
+    <string name="login_activity_action_bar_title2">登录</string>
+    <string name="login_activity_account">手机/邮箱/爱拍号</string>
+    <string name="login_activity_password">密码</string>
+    <string name="login_activity_success">登录成功</string>
+    <string name="login_activity_fail">登录失败</string>
+    <string name="login_activity_load_user_info_fail">加载用户信息失败</string>
+    <string name="login_activity_login_btn_text">登录</string>
+    <string name="login_activity_cancel_login">取消</string>
+    <string name="login_activity_go_register">注册</string>
+    <string name="login_via_third">第三方账号登录</string>
+    <string name="login_via_qq">QQ</string>
+    <string name="login_via_wx">微信</string>
+    <string name="login_via_sina">微博</string>
+    <string name="login_overdue_sina">新浪微博</string>
+
+    <!-- get password activity -->
+    <string name="commit">提交</string>
+
+
+    <!-- history activity -->
+    <string name="history_activity_actionbar_title">观看历史</string>
+    <string name="history_activity_no_history">暂无历史，请到首页去逛逛吧</string>
+    <string name="history_activity_delete_dialog_title">你确定清空所有观看记录？</string>
+    <string name="history_activity_delete_dialog_btn_clear">清空</string>
+    <string name="history_activity_delete_dialog_btn_cancel">取消</string>
+    <string name="history_activity_delete_success">清除成功</string>
+    <string name="history_activity_delete_fail">删除失败</string>
+
+    <!-- show activity -->
+    <string name="show_activity_title">晒一晒</string>
+    <string name="show_activity_paidashi_introdection">拍大师移动版 , 边玩手游边录视频,晒出你的精彩手游时刻！</string>
+    <string name="show_activity_download_btn_text">马上下载（11.37M）</string>
+    <string name="show_activity_start_paidashi">马上启动</string>
+    <string name="show_activity_function_text">超酷功能</string>
+    <string name="show_activity_function_screen_record">手游录制</string>
+    <string name="show_activity_function_screen_record_detail">边玩边录边解说 , 超easy！</string>
+    <string name="show_activity_function_screen_shot">一键截屏</string>
+    <string name="show_activity_function_screen_shot_detail">告别组合键 , 一个手指轻松搞定！</string>
+    <string name="show_activity_function_video_record">视频快拍</string>
+    <string name="show_activity_function_video_record_detail">随时随地 , 记录每个精彩时刻！</string>
+    <string name="show_activity_function_video_upload">轻松上传</string>
+    <string name="show_activity_function_video_upload_detail">快乐就是要和所有人分享！</string>
+    <string name="show_activity_game_title">以下手游已内置录屏功能：</string>
+    <string name="show_activity_game_introduce">无需拍大师!</string>
+
+    <!-- myzone activity -->
+    <string name="myzone_activity_title">我的空间</string>
+    <string name="myzone_activity_title_login_out">登出</string>
+    <string name="myzone_activity_login_out_hint">您确定退出登录？</string>
+    <string name="myzone_activity_enable_push">开启推送</string>
+    <string name="myzone_activity_disable_push">关闭推送</string>
+    <string name="myzone_activity_history">观看历史</string>
+    <string name="myzone_activity_paidan">我的收藏</string>
+    <string name="myzone_activity_exit_login">退出登录</string>
+
+    <!-- home activity -->
+    <string name="home_activity_pc_aipai">PC原创</string>
+
+    <!-- pc aipai activity -->
+    <string name="pc_aipai_activity_actionbar_title">PC原创</string>
+
+    <!-- discover activity -->
+    <string name="discover_activity_game_catogory">分类</string>
+
+    <!-- offline data activity -->
+    <string name="offline_data_activity_no_cached_video">尚无任何离线缓存视频</string>
+    <string name="offline_data_activity_find_work">马上发现好作品>></string>
+    <string name="offline_data_activity_actionbar_title">离线下载</string>
+    <string name="offline_data_activity_edit">编辑</string>
+    <string name="offline_data_activity_finished_edit">完成</string>
+    <string name="offline_data_activity_delete_all">删除全部</string>
+    <string name="offline_data_activity_btn_delete_yes">确认</string>
+    <string name="offline_data_activity_deleting">正在删除...</string>
+    <string name="offline_data_activity_delete_downing_video">视频正在下载中, 删除后将不可恢复!</string>
+    <string name="offline_data_activity_delete_waiting_video">视频正在等待队列, 删除后将不可恢复!</string>
+    <string name="offline_data_activity_delete_finished_video">删除后将不可恢复!</string>
+    <string name="offline_data_activity_delete_all_video">确定删除所有离线视频吗？</string>
+    <string name="downing_video">正在离线中哦~</string>
+    <string name="downed_video">作品已离线</string>
+
+    <!-- modify person info activity -->
+    <string name="modify_personal_info_activity_title">修改资料</string>
+    <string name="modify_personal_info_activity_nick_name">昵称</string>
+    <string name="modify_personal_info_activity_phone_num">手机</string>
+    <string name="modify_personal_info_activity_email_address">邮箱</string>
+    <string name="modify_personal_info_activity_modify_password">修改密码</string>
+    <string name="modify_personal_info_activity_upload_portrait_title">上传头像</string>
+    <string name="modify_personal_info_activity_take_pic">拍照</string>
+    <string name="modify_personal_info_activity_alum">从相册中选择</string>
+    <string name="modify_personal_info_activity_cancel">取消</string>
+
+    <!-- modify nick name activity -->
+    <string name="modify_nick_name_activity_title">昵称</string>
+    <string name="modify_nick_name_activity_modify_btn">确认修改</string>
+
+    <!-- modify email activity -->
+    <string name="modify_email_activity_title">绑定邮箱</string>
+    <string name="modify_email_activity_verification_code_hint">验证码</string>
+    <string name="modify_email_activity_btn_bind_email">绑定</string>
+
+    <!-- modify phone num activity -->
+    <string name="modify_phone_num_activity_title">绑定新手机</string>
+    <string name="modify_phone_num_activity_modify_phone_num_hint">输入手机号码</string>
+    <string name="modify_phone_num_activity_modify_btn_get_verification_code">获取短信验证码</string>
+
+    <!-- clip picture activity -->
+    <string name="clip_picture_activity_use_btn">使用</string>
+
+    <!-- HisVideosFragment -->
+    <string name="latest_publish_videos">最新发布</string>
+    <string name="most_play_videos">最多播放</string>
+    <string name="all_videos_of_author">作者全部作品 ></string>
+
+    <!-- FinishPersonalInfoActivity -->
+    <string name="finish">完成</string>
+    <string name="set_password">设置密码</string>
+    <string name="set_a_good_nickname">取个高大上的昵称吧</string>
+    <string name="set_random_nickname">随便来个</string>
+    <string name="finish_personal_info">完善个人信息</string>
+    <string name="tip_phone_number_not_enough">手机号必须为11位！</string>
+    <string name="tip_phone_no_registered">该手机未注册账号！</string>
+    <string name="tip_auth_code_err">验证码错误！</string>
+    <string name="tip_pwd_cnt_err">密码长度必须为6~32位！</string>
+    <string name="tip_not_same_pwd">两次输入的密码不一致！</string>
+    <string name="tip_commit_failed">提交失败</string>
+
+    <!-- 视频私有、审核、删除 -->
+    <string name="video_auditing">稍等一下，视频还在审核中......</string>
+    <string name="video_private">该视频已被私有</string>
+    <string name="video_not_exist">该视频不存在哦......</string>
+    <string name="video_not_public_contact">如有疑问， 请联系 爱拍客服QQ：800103410</string>
+
+    <string name="can_not_add_idol_self">不能粉自己哦</string>
+
+    <!-- 充值中心 -->
+    <string name="pay_center_no_wechat">你没有安装微信哦</string>
+
+    <!-- IM -->
+    <string name="im_login_now">立即登录</string>
+    <string name="im_no_login_hint">登录后才可以和拍友互动哦！</string>
+    <string name="im_connect_rong_clound">加载中...</string>
+    <string name="im_login_fail_network">网络不给力，登录失败</string>
+    <string name="im_login_fail">登录失败</string>
+    <string name="im_set_top">置顶</string>
+    <string name="im_cancel_set_top">取消置顶</string>
+    <string name="im_delete">删除</string>
+    <string name="im_message">消息</string>
+    <string name="im_report_message_success">举报成功</string>
+    <string name="im_send_fail">发送失败</string>
+    <string name="im_group_helper">群组助手</string>
+    <string name="im_group_message">群组消息</string>
+    <string name="im_group_new_fanse">新的粉丝</string>
+    <string name="im_official_group">官方群</string>
+    <string name="im_fans_group">粉丝群</string>
+    <string name="im_set_top_success">已置顶</string>
+    <string name="im_cancel_set_top_success">已取消置顶</string>
+    <string name="im_create_chart">发起聊天</string>
+    <string name="im_find_group">寻找群组</string>
+    <string name="im_find_friend">寻找拍友</string>
+    <string name="im_find_idol">加偶像为拍友</string>
+    <string name="im_network_disconnect">网络好像偷懒了哟~看看啥回事</string>
+    <string name="im_recommend_friend_login_hint">你未登录，不能和TA聊天喔！！</string>
+    <string name="im_recommend_group_login_hint">你未登录，不能在群内聊天喔！！</string>
+    <string name="im_cancel">取消</string>
+    <string name="im_login">登录</string>
+    <string name="im_recommend">推荐</string>
+    <string name="im_conversation_tab_login_hint">聊天内容已加密，登录即可解锁~</string>
+    <string name="im_friend_tab_login_hint">登录后才可以和拍友互动哦！</string>
+    <string name="im_empty_conversation_list_hint">还木有任何聊天，\"+\" 个拍友聊起来吧！！</string>
+    <string name="im_extend_provider_reward_title">打赏</string>
+    <string name="im_extend_provider_gift_title">礼物</string>
+    <string name="im_extend_provider_face_char_title">颜文字</string>
+
+    <string name="search_group">寻找群组</string>
+    <string name="search_group_name">搜索群组名称</string>
+    <string name="official_group">官方群</string>
+    <string name="group_talk">群聊</string>
+    <string name="fans_group">粉丝群</string>
+    <string name="group_add">已添加</string>
+    <string name="sending">发送中...</string>
+    <string name="awaiting_verification">等待验证</string>
+    <string name="more">更多</string>
+    <string name="fans_description">（要粉群主，才能加群！）</string>
+    <string name="official_description">（官方创办，更具权威！）</string>
+    <string name="join_group">加入</string>
+    <string name="my_groups">我的群</string>
+    <string name="settings">拍友设置</string>
+    <string name="my_idol">我的偶像</string>
+    <string name="add_friend">添加</string>
+    <string name="search_friends_or_group_talk">搜索拍友/群聊</string>
+    <string name="native_search_friends_or_group_talk">本地搜索拍友/群聊</string>
+    <string name="my_fans_group">我拥有的粉丝群</string>
+    <string name="my_official_group">我拥有的官方群</string>
+    <string name="my_join_fans_group">我加入的粉丝群</string>
+    <string name="you_like_group">猜你喜欢的群</string>
+    <string name="ok">确定</string>
+    <string name="ok_format">确定(%1$d)</string>
+    <string name="aipai_seachering">爱拍君正在玩命搜索…</string>
+    <string name="service_error">服务器开小差了~~稍后再试试吧</string>
+    <string name="im_no_network">网络好像偷懒了哟~~</string>
+    <string name="only_text">请输入文字信息，暂不支持图片/语音发送</string>
+    <string name="on_send_searching">查询中...</string>
+    <string name="on_sending_message">发送中...</string>
+    <string name="on_sending_gift">赠送中...</string>
+    <string name="can_not_add_im_friend_self">不能添加自己为好友喔</string>
+
+    <string name="message_center_aipaibi_num">明星币 X %1$s</string>
+    <string name="im_hongren_setting_title">设置礼金额度</string>
+    <string name="im_hongren_setting_intro">合适的礼金额度可以帮你找到更兴趣相投的好友，也能够帮你带来更多的红人收益哦~ </string>
+    <string name="im_hongren_setting_hint">若拒绝申请或3天内未处理，礼金将自动退还。 </string>
+
+    <string name="im_conversation_thank_to_him">答谢他</string>
+    <!-- zone -->
+    <string name="title_benchmark">StackBlur Benchmark</string>
+    <string name="java">Java</string>
+    <string name="nativ">Native</string>
+    <string name="renderscript">Renderscript</string>
+    <string name="benchmark_start">Start Benchmark</string>
+    <string name="label_blur_amount">Blur Amount</string>
+    <string name="desc_blurred_img">Blurred Image</string>
+
+    <string-array name="blur_modes">
+        <item>@string/java</item>
+        <item>@string/nativ</item>
+        <item>@string/renderscript</item>
+    </string-array>
+
+    <string name="g_image_loader_uri">g_image_loader_uri</string>
+    <string name="g_convert_view">g_convert_view</string>
+    <!--互动中心-->
+    <string name="title_activity_message_center">互动消息</string>
+    <string name="message_center_loading">小拍努力加载中...</string>
+    <string name="message_center_parse_error">数据错误</string>
+    <string name="title_activity_im_gift_reward">ImGiftRewardActivity</string>
+    <!--分享App-->
+    <string name="title_share_app">【爱拍原创】新版上线，现金红包大派送！</string>
+    <string name="share_content_url_share_app">http://v.aipai.com/b5gyN</string>
+    <string name="image_url_share_app">http://img.weplay.cn/app/www/templates/appcenter/aipai/img/aipai_logo_new.png</string>
+    <string name="target_url_share_app">http://m.aipai.com/app/www/templates/mobile/zt/2015/app-share/</string>
+
+    <!--个人空间分享-->
+    <string name="zone_share_title">[有人@你]爱拍明星【%1$s】邀你一起飞！</string>
+    <string name="zone_share_content">爱拍原创游戏好莱坞，亿元明星养成计划，快来和我一起做游戏大明星</string>
+    <string name="zone_share_weibo_content">爱拍明星【%1$s】邀你一起飞！ -- 爱拍原创游戏好莱坞，亿元明星养成计划，快来和我一起做游戏大明星</string>
+    <string name="zone_share_img_url">http://img.weplay.cn/app/www/templates/common/img/homeShare.jpg</string>
+    <string name="zone_share_target_url">http://m.aipai.com/mobile/hrhome_bid-%1$s.html</string>
+
+    <!--分享视频-->
+    <string name="video_share_title">%1$s-爱拍原创 </string>
+    <string name="video_share_content">【%1$s】%2$s</string>
+    <string name="video_share_content_weibo">%1$s 分享自@爱拍原创</string>
+    <!--分享网页图片-->
+    <string name="web_share_image_url">http://res.weplay.cn/app/www/templates/mobile/common/css/img/icon_share01.png</string>
+
+    <!--动态，新游戏提醒-->
+    <string name="dynamic_notice_new_game">\\(^o^)/ 我们发现你在玩这些新游戏，\n已添加到你的爱拍基因了哦！</string>
+    <!--拍大师包名-->
+    <string name="paidashi_package_name">com.aipai.paidashi</string>
+
+    <!--//ScrollHeaderView的容器父布局配置-->
+    <string name="scroll_header_view_linearlayout">linear</string>
+    <string name="scroll_header_view_relativelayout">relative</string>
+    <string name="scroll_header_view_framelayout">frame</string>
+    <string name="live_send_gift_list">送礼榜</string>
+    <string name="live_receive_gift_list">收礼榜</string>
+
+    <string name="empty_live_subscribe">呃，你还没订阅任何主播哦</string>
+    <string name="authorization_overdue">%1$s授权登录已过期</string>
+    <string name="customer_service_online_time">客服在线时间 %1$s</string>
+
+    <string name="zone_setting_open_gif_hint">开启后将对手机性能造成影响，请根据设备实际情况选择。</string>
+
+    <string name="IM_interaction_no_comment_hint">还木有评论呢~</string>
+    <string name="IM_interaction_comment_hint">你不在的时间里收到%1$d条评论了呢~</string>
+
+    <string name="IM_interaction_no_gift_hint">还木有人给你送礼呢~</string>
+    <string name="IM_interaction_gift_hint">你不在的时间里有%1$d个人给你送礼了呢~</string>
+
+    <string name="Video_player_gift_sponsor_hint">送礼值超过%1$s即有机会登上片头~</string>
+
+    <!--主页的一些统计-->
+    <string name="home_tab_statistics_key">home_page_top_banner_gameType_%1$d_gameId_%2$d</string>
+
+    <string name="home_video_switch_key">home_page_zone_switch_gameType_%1$d_gameId_%2$d</string>
+
+    <string name="home_more_video_key">home_page_zone_more_gameType_%1$d_gameId_%2$d</string>
+
+    <string name="home_video_content_key">home_video_content_key_gameType_%1$d_gameId_%2$d</string>
+
+
+  <!--  <string name="app_name">ijkmediademo</string>-->
+
+    <string name="N_A">N/A</string>
+    <string name="close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="sample">Sample</string>
+    <string name="recent">Recent</string>
+   <!-- <string name="settings">Settings</string>-->
+    <string name="tracks">Tracks</string>
+    <string name="toggle_player">Player</string>
+    <string name="toggle_render">Render</string>
+    <string name="toggle_ratio">Scale</string>
+    <string name="show_info">Info</string>
+    <string name="vdec">vdec</string>
+    <string name="fps">fps</string>
+    <string name="v_cache">v-cache</string>
+    <string name="a_cache">a-cache</string>
+    <string name="load_cost">load-cost</string>
+    <string name="seek_cost">seek_cost</string>
+    <string name="seek_load_cost">seek_load_cost</string>
+    <string name="tcp_speed">tcp_speed</string>
+    <string name="bit_rate">bit_rate</string>
+
+    <string name="media_information">Media Information</string>
+    <string name="mi_player">Player</string>
+    <string name="mi_media">Media</string>
+    <string name="mi_profile_level">Profile level</string>
+    <string name="mi_pixel_format">Pixel format</string>
+    <string name="mi_resolution">Resolution</string>
+    <string name="mi_length">Length</string>
+    <string name="mi_stream_fmt1">Stream #%d</string>
+    <string name="mi_type">Type</string>
+    <string name="mi_language">Language</string>
+    <string name="mi_codec">Codec</string>
+    <string name="mi_frame_rate">Frame rate</string>
+    <string name="mi_bit_rate">Bit rate</string>
+    <string name="mi_sample_rate">Sample rate</string>
+    <string name="mi_channels">Channels</string>
+    <string name="mi__selected_video_track">*</string>
+    <string name="mi__selected_audio_track">*</string>
+
+    <string name="TrackType_video">Video</string>
+    <string name="TrackType_audio">Audio</string>
+    <string name="TrackType_subtitle">Subtitle</string>
+    <string name="TrackType_timedtext">Timed text</string>
+    <string name="TrackType_metadata">Meta data</string>
+    <string name="TrackType_unknown">Unknown</string>
+
+    <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">Unknown</string>
+    <string name="VideoView_error_button">OK</string>
+
+    <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
+    <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
+    <string name="VideoView_ar_aspect_wrap_content">Aspect / Wrap content</string>
+    <string name="VideoView_ar_match_parent">Free / Fill parent</string>
+    <string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent</string>
+    <string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent</string>
+
+    <string name="VideoView_render_none">Render: None</string>
+    <string name="VideoView_render_surface_view">Render: SurfaceView</string>
+    <string name="VideoView_render_texture_view">Render: TextureView</string>
+
+    <string name="VideoView_player_none">Player: None</string>
+    <string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer</string>
+    <string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer</string>
+    <string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer</string>
+</resources>

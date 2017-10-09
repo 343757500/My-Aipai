@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="search_input_bg_shape_top_left_radius">0dip</dimen>
+    <dimen name="search_input_bg_shape_top_right_radius">3dip</dimen>
+    <dimen name="search_input_bg_shape_bottom_left_radius">3dip</dimen>
+    <dimen name="search_input_bg_shape_bottom_right_radius">0dip</dimen>
+    <dimen name="search_btn_shape_top_left_radius">0dip</dimen>
+    <dimen name="search_btn_shape_top_right_radius">3dip</dimen>
+    <dimen name="search_btn_shape_bottom_left_radius">3dip</dimen>
+    <dimen name="search_btn_shape_bottom_right_radius">0dip</dimen>
+    
+    <dimen name="dialog_background_yes_button_bottom_left_radius">5dp</dimen>
+    <dimen name="dialog_background_yes_button_bottom_right_radius">0dp</dimen>
+    <dimen name="dialog_background_no_button_bottom_left_radius">0dp</dimen>
+    <dimen name="dialog_background_no_button_bottom_right_radius">5dp</dimen>
+</resources>

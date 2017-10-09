@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@color/zone_line"
+    android:insetLeft="@dimen/zone_size_20px"
+    android:insetRight="@dimen/zone_size_20px" >
+
+</inset>

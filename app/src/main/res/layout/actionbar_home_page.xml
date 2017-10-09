@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:background="@color/toolbar_bg"
+    android:tag="skin:toolbar_bg:background">
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginStart="16dp"
+        android:layout_toLeftOf="@+id/iv_video_history"
+        android:layout_toStartOf="@+id/iv_video_history"
+        android:background="@drawable/shape_f59c00_5"
+        android:drawableLeft="@drawable/home_page_search"
+        android:drawablePadding="3dp"
+        android:drawableStart="@drawable/home_page_search"
+        android:focusable="false"
+        android:gravity="center|left"
+        android:ellipsize="end"
+        android:hint="视频/达人/手游"
+        android:maxLines="1"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#fbdab6"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/iv_video_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/et_search"
+        android:layout_alignTop="@id/et_search"
+        android:layout_toLeftOf="@+id/iv_video_download"
+        android:layout_toStartOf="@+id/iv_video_download"
+        android:background="@drawable/selector_00000000_19000000"
+        android:paddingEnd="11dp"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:paddingStart="11dp"
+        android:src="@drawable/home_page_clock" />
+
+    <ImageView
+        android:id="@+id/iv_video_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/et_search"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/et_search"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/selector_00000000_19000000"
+        android:paddingEnd="11dp"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:paddingStart="11dp"
+        android:src="@drawable/home_page_download" />
+
+
+</RelativeLayout>

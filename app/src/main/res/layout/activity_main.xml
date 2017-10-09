@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/layout_shadow_actionbar"
+                layout="@layout/actionbar_customview_with_logo"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_shadow_actionbar">
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_above="@+id/ll_tab_container" />
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@drawable/tabhost_bg"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/ll_tab_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/tabhost_bg"
+                    android:orientation="horizontal"
+                    android:tag="skin:tabhost_bg:background">
+
+                    <TextView
+                        android:id="@+id/check_discover"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/main_activity_tab_discover_selector"
+                        android:gravity="bottom|center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="5dp"
+                        android:tag="skin:main_activity_tab_textcolor_selector:textColor|skin:main_activity_tab_discover_selector:drawableTop"
+                        android:text="@string/tab_discover"
+                        android:textColor="@drawable/main_activity_tab_textcolor_selector"
+                        android:textSize="12sp" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/check_dynamic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:drawableTop="@drawable/main_activity_tab_recommend_selector"
+                            android:gravity="bottom|center"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="5dp"
+                            android:tag="skin:main_activity_tab_textcolor_selector:textColor|skin:main_activity_tab_recommend_selector:drawableTop"
+                            android:text="@string/tab_dynamic"
+                            android:textColor="@drawable/main_activity_tab_textcolor_selector"
+                            android:textSize="12sp" />
+
+                        <View
+                            android:id="@+id/view_anchor"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="16dp"
+                            android:background="#000000" />
+
+                        <mymap.my_aipai.view.CircularPoint xmlns:CircularPoint="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/iv_red_point"
+                            android:layout_width="8dp"
+                            android:layout_height="8dp"
+                            android:layout_alignBottom="@+id/view_anchor"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_toRightOf="@id/view_anchor"
+                            CircularPoint:circular_point_color="#ffff0000" />
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view_center_anchor"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_tab_im"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/check_im"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:checked="false"
+                            android:drawableTop="@drawable/main_activity_tab_im_selector"
+                            android:gravity="bottom|center"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="5dp"
+                            android:tag="skin:main_activity_tab_textcolor_selector:textColor|skin:main_activity_tab_im_selector:drawableTop"
+                            android:text="@string/tab_im"
+                            android:textColor="@drawable/main_activity_tab_textcolor_selector"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tv_unread_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="7dp"
+                            android:layout_marginTop="4dp"
+                            android:background="@drawable/im_bg_message_count"
+                            android:gravity="center"
+                            android:text="99+"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9dp"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_weight="1">
+                        <!--android:layout_weight="1"-->
+                        <TextView
+                            android:id="@+id/check_mine"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:drawableTop="@drawable/main_activity_tab_mine_selector"
+                            android:gravity="bottom|center"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="5dp"
+                            android:tag="skin:main_activity_tab_textcolor_selector:textColor|skin:main_activity_tab_mine_selector:drawableTop"
+                            android:text="@string/tab_mine"
+                            android:textColor="@drawable/main_activity_tab_textcolor_selector"
+                            android:textSize="12sp" />
+
+                        <View
+                            android:id="@+id/view_anchor1"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="16dp"
+                            android:background="#000000" />
+
+                        <mymap.my_aipai.view.CircularPoint xmlns:CircularPoint="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/iv_new_gift_red_point"
+                            android:layout_width="8dp"
+                            android:layout_height="8dp"
+                            android:layout_alignBottom="@+id/view_anchor1"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_toRightOf="@id/view_anchor1"
+                            android:visibility="gone"
+                            CircularPoint:circular_point_color="#ffff0000" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/check_center_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:drawableTop="@drawable/main_activity_tab_show_selector"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="5dp"
+                    android:tag="skin:main_activity_tab_textcolor_selector:textColor|skin:main_activity_tab_show_selector:drawableTop"
+                    android:text="@string/tab_rank_list"
+                    android:textColor="@drawable/main_activity_tab_textcolor_selector"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </TabHost>
+</merge>

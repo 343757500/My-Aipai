@@ -1,0 +1,47 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--最外层-->
+    <item
+        android:left="3px"
+        android:top="5px">
+        <shape>
+            <padding
+                android:bottom="2px"
+                android:left="0px"
+                android:right="2px"
+                android:top="0px" />
+            <solid android:color="#e0e5e5e5" />
+            <corners android:radius="@dimen/dp_1" />
+        </shape>
+    </item>
+    <!--倒数第二层-->
+    <item android:left="0px">
+        <shape>
+            <padding
+                android:bottom="1px"
+                android:left="1px"
+                android:right="1px"
+                android:top="0px" />
+            <solid android:color="@color/line_grey" />
+            <corners android:radius="@dimen/dp_1" />
+        </shape>
+    </item>
+    <!--最里层-->
+    <item android:left="0px">
+        <shape>
+            <padding
+                android:bottom="0px"
+                android:left="0px"
+                android:right="0px"
+                android:top="0px" />
+            <solid android:color="#e0e5e5e5" />
+            <corners android:radius="@dimen/dp_1" />
+        </shape>
+    </item>
+    <!--底色-->
+    <item>
+        <shape>
+            <solid android:color="@color/bg_orange" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+</layer-list>

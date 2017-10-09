@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mymap.my_aipai.player.SlidingFinishLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slidingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/layout_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <com.aipai.playerpage.view.component.cleanView.player.ExoPlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_detail_small_player_height"
+        android:layout_below="@id/layout_header_container"
+        android:background="#000000">
+
+        <com.aipai.playerpage.view.component.cleanView.playerControl.CustomPlayerControlLayout
+            android:id="@+id/player_control"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.aipai.playerpage.view.component.cleanView.player.ExoPlayerView>
+
+    <View
+        android:id="@+id/view_player_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/player_view" />
+
+    <View
+        android:id="@+id/view_mask"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/video_detail_small_player_height"
+        android:visibility="gone" />
+
+    <!-- 暂停广告 -->
+    <include
+        layout="@layout/view_ad_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <RelativeLayout
+        android:id="@+id/rl_vip_no_ad_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/player_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_pai_vip_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_30"
+            android:src="@drawable/player_vip_hint_bg" />
+
+        <ImageView
+            android:id="@+id/iv_pai_vip_boy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_pai_vip_bg"
+            android:layout_alignLeft="@id/iv_pai_vip_bg"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:src="@drawable/player_vip_hint_pai_boy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/iv_pai_vip_bg"
+            android:layout_alignTop="@id/iv_pai_vip_bg"
+            android:layout_marginLeft="@dimen/dp_2"
+            android:layout_toRightOf="@id/iv_pai_vip_boy"
+            android:gravity="center_vertical"
+            android:text="有一种特权，叫做VIP免广告！"
+            android:textColor="#ffbe0c"
+            android:textSize="@dimen/dp_9" />
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/item_world_banner" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/player_view"
+        android:layout_marginBottom="47dp"
+        android:background="@color/white"
+        android:overScrollMode="never" />
+
+    <View
+        android:id="@+id/vw_red_package"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/player_view" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_gift_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_error_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/player_view" />
+    <!--<include layout="@layout/load_error" />-->
+    <include layout="@layout/layout_caption" />
+
+    <RelativeLayout
+        android:id="@+id/rl_red_page"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_below="@id/player_view"
+        android:layout_marginTop="55dp"
+        android:paddingEnd="6dp"
+        android:paddingRight="6dp"
+        android:visibility="gone">
+
+
+        <ImageView
+            android:id="@+id/iv_new_year"
+            android:layout_width="34dp"
+            android:layout_height="57dp"
+            android:background="@drawable/new_year_red_pager"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_no_start_red_packet"
+            android:layout_width="44dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@id/iv_new_year"
+            android:background="@drawable/red_pager_no_start"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/view_video_reward_share" /><!--这个一定要放在最外层-->
+
+</mymap.my_aipai.player.SlidingFinishLayout>
