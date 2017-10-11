@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/fm_logined"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="mymap.my_aipai.fragment.FmZoneLogined"/>
+
+
+    <fragment
+        android:id="@+id/fm_not_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="mymap.my_aipai.fragment.FmZoneNotLogin"/>
+
+</merge>

@@ -14,4 +14,12 @@ public class ServerAPI {
 
   public  static  final  String GET_VIDEO_INFO="http://m.aipai.com/mobile/apps/apps_module-auxplayer_func-indexDataNew_os-1_assetId-%1$s.html";
 
+  public static final String PLAYER_DETAIL_OTHER_DATA = "http://m.aipai.com/mobile/apps/apps.php?module=auxplayer&func=appendData&os=1&new_recommend=1";
+
+  /**
+   * 视频播放详情页实时数据
+   */
+  public static final String PLAYER_DETAIL_DIRECT_DATA = "http://m.aipai.com/mobile/apps/apps.php?module=auxplayer&func=assetCount";
+
+
 }

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zone_bg"
+    android:orientation="vertical" >
+    <include layout="@layout/actionbar_home_page"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/zone_white"
+            android:orientation="horizontal" >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_user_pic"
+                android:layout_width="@dimen/zone_size_120px"
+                android:layout_height="@dimen/zone_size_120px"
+                android:layout_marginBottom="@dimen/zone_size_16px"
+                android:layout_marginLeft="@dimen/zone_size_20px"
+                android:layout_marginTop="@dimen/zone_size_16px"
+                android:src="@drawable/global_avatar_default" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/zone_size_16px"
+                android:layout_marginTop="@dimen/zone_size_22px"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_not_login_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="你还木有登录"
+                    android:textColor="@color/zone_color_323232"
+                    android:textSize="@dimen/zone_text_32px" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/zone_size_16px"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/img_login_now"
+                            android:layout_width="@dimen/zone_size_180px"
+                            android:layout_height="@dimen/zone_size_50px"
+                            android:background="@drawable/shape_zone_nor_btn"
+                            android:src="@drawable/selector_zone_r_btns" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="立即登录"
+                            android:textColor="@color/zone_white"
+                            android:textSize="@dimen/zone_text_28px" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/zone_size_20px" >
+
+                        <ImageView
+                            android:id="@+id/img_register_now"
+                            android:layout_width="@dimen/zone_size_180px"
+                            android:layout_height="@dimen/zone_size_50px"
+                            android:background="@drawable/shape_zone_nor_btn"
+                            android:src="@drawable/selector_zone_r_btns" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="注册账号"
+                            android:textColor="@color/zone_white"
+                            android:textSize="@dimen/zone_text_28px" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zone_line_h"
+            android:background="@color/zone_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_most_fun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/zone_size_20px"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zone_line_h"
+            android:background="@color/zone_line" />
+
+        <RelativeLayout
+            android:id="@+id/rel_fun_most"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zone_group_setting_menu_item_height"
+            android:background="@drawable/selector_white_to_f5f5f5_rect"
+            android:paddingLeft="@dimen/zone_size_20px"
+            android:paddingRight="@dimen/zone_size_20px" >
+
+            <ImageView
+                android:id="@+id/zoneg_fun_most"
+                android:layout_width="@dimen/zone_size_60px"
+                android:layout_height="@dimen/zone_size_60px"
+                android:layout_centerVertical="true"
+                android:src="@drawable/zone_item_fun_most" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/zone_size_20px"
+                android:layout_toRightOf="@+id/zoneg_fun_most"
+                android:text="最会玩"
+                android:textColor="@color/zone_color_323232"
+                android:textSize="@dimen/zone_text_32px" />
+
+            <TextView
+                android:id="@+id/tv_fun_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/zone_size_12px"
+                android:layout_toLeftOf="@+id/img_arr_right3"
+                android:textColor="@color/zone_red"
+                android:textSize="@dimen/zone_text_24px" />
+
+            <ImageView
+                android:id="@+id/img_arr_right3"
+                android:layout_width="@dimen/zone_size_16px"
+                android:layout_height="@dimen/zone_size_30px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/zone_right_arr" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zone_line_h"
+            android:background="@color/zone_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/zone_white"
+        android:layout_marginTop="@dimen/zone_size_20px"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zone_line_h"
+            android:background="@color/zone_line" />
+
+        <RelativeLayout
+            android:id="@+id/rel_video_offline"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zone_group_setting_menu_item_height"
+            android:background="@drawable/selector_00000000_f5f5f5"
+            android:paddingLeft="@dimen/zone_size_20px"
+            android:paddingRight="@dimen/zone_size_20px" >
+
+            <ImageView
+                android:id="@+id/zoneg_offline"
+                android:layout_width="@dimen/zone_size_60px"
+                android:layout_height="@dimen/zone_size_60px"
+                android:layout_centerVertical="true"
+                android:src="@drawable/zone_item_offline" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/zone_size_20px"
+                android:layout_toRightOf="@+id/zoneg_offline"
+                android:text="离线视频"
+                android:textColor="@color/zone_color_323232"
+                android:textSize="@dimen/zone_text_32px" />
+
+            <TextView
+                android:id="@+id/tv_offline_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="99+"
+                android:textColor="@color/zone_white"
+                android:textSize="@dimen/zone_text_24px" />
+
+            <ImageView
+                android:id="@+id/iv_offline_right_arr"
+                android:layout_width="@dimen/zone_size_16px"
+                android:layout_height="@dimen/zone_size_30px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/zone_right_arr"
+                android:visibility="gone" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zone_line_h"
+            android:background="@color/zone_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="visible"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_video_history"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zone_group_setting_menu_item_height"
+            android:background="@drawable/selector_00000000_f5f5f5"
+            android:paddingLeft="@dimen/zone_size_20px"
+            android:paddingRight="@dimen/zone_size_20px" >
+
+            <ImageView
+                android:id="@+id/zoneg_history"
+                android:layout_width="@dimen/zone_size_60px"
+                android:layout_height="@dimen/zone_size_60px"
+                android:layout_centerVertical="true"
+                android:src="@drawable/zone_item_history" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/zone_size_20px"
+                android:layout_toRightOf="@+id/zoneg_history"
+                android:text="观看历史"
+                android:textColor="@color/zone_color_323232"
+                android:textSize="@dimen/zone_text_32px" />
+
+            <ImageView
+                android:layout_width="@dimen/zone_size_16px"
+                android:layout_height="@dimen/zone_size_30px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/zone_right_arr" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zone_line_h"
+            android:visibility="visible"
+            android:background="@color/zone_line" />
+    </LinearLayout>
+
+</LinearLayout>

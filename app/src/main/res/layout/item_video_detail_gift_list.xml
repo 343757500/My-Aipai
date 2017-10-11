@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_video_gift_list"
+    android:layout_height="wrap_content"
+    android:paddingTop="18dp">
+
+
+    <LinearLayout
+        android:id="@+id/ll_gift_rank"
+        android:layout_width="match_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_gift_list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="赞助榜"
+            android:layout_weight="1"
+            android:textColor="#323232"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_total_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:background="@drawable/selector_bg_layout"
+            android:gravity="center"
+            android:text="完整榜单"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/zone_right_arr"
+            android:textColor="#999999"/>
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/item_gap_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll_gift_rank"
+        android:layout_centerHorizontal="true">
+
+        <include
+            android:id="@+id/layout_top_of_1"
+            layout="@layout/item_video_detail_gift_list_user_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <include
+            android:id="@+id/layout_top_of_2"
+            layout="@layout/item_video_detail_gift_list_user_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <include
+            android:id="@+id/layout_top_of_3"
+            layout="@layout/item_video_detail_gift_list_user_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

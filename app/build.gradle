@@ -37,8 +37,8 @@ dependencies {
     compile 'com.android.support:support-v4:'
     compile 'com.android.support:design:25.2.0'
     //友盟库
-    compile 'com.jakewharton:butterknife:8.5.1'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    /*compile 'com.jakewharton:butterknife:8.5.1'*/
+    /*annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'*/
     compile 'com.zhouyou:rxeasyhttp:2.0.1'
     //okhttputils
     compile 'com.zhy:okhttputils:2.6.2'
@@ -62,4 +62,7 @@ dependencies {
             当你在非UI线程想对UI进行操作可以执行ThreadHelper.runOnUiThread(your runnable);*/
     compile 'com.github.whimaggot:Android_ThreadHelper:1.0'
     compile project(':vitamio')
+
+//俗名：可垂直跑、可水平跑的跑马灯；学名：可垂直翻、可水平翻的翻页公告 http://sunfusheng.com/
+    compile 'com.sunfusheng:marqueeview:1.3.2'
 }

@@ -3,10 +3,10 @@
     首页RecycleView Item布局：头部item
     @author: Jinquan
 -->
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
     <com.daimajia.slider.library.SliderLayout
@@ -27,37 +27,48 @@
 
     <include layout="@layout/view_divider"/>
 
-    <LinearLayout
+   <!-- <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="200dp"
 
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingLeft="10dp"
         android:paddingRight="10dp">
-       <!-- android:background="@color/white"-->
+       &lt;!&ndash; android:background="@color/white"&ndash;&gt;
 
 
         <ImageView
             android:layout_width="50dp"
             android:layout_height="12dp"
             android:background="@drawable/head_line"/>
-
-        <ViewFlipper
+-->
+       <!-- <ViewFlipper
             android:id="@+id/view_flipper"
             android:layout_width="0dp"
-            android:layout_height="20dp"
+            android:layout_height="match_parent"
             android:layout_marginLeft="15dp"
             android:layout_weight="1"
-            android:flipInterval="3000"/>
+            android:flipInterval="3000"/>-->
 
-        <ImageView
+        <com.sunfusheng.marqueeview.MarqueeView
+            android:id="@+id/marqueeView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:mvAnimDuration="1000"
+            app:mvDirection="bottom_to_top"
+            app:mvInterval="3000"
+            app:mvTextColor="@color/black"
+            app:mvTextSize="14sp"
+            app:mvSingleLine="true"/>
+
+     <!--   <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:background="@drawable/go_ahead"/>
 
-    </LinearLayout>
+    </LinearLayout>-->
 
     <View
         android:layout_width="match_parent"

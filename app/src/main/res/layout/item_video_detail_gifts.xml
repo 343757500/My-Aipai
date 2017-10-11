@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="7dp">
+
+        <ImageView
+            android:id="@+id/iv_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/viod_essence_tag"
+            android:gravity="center"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/ibtn_author_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_video_title"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_bg_layout"
+            android:padding="10dp"
+            android:src="@drawable/icon_video_detail_head_nav" />
+
+        <TextView
+            android:id="@+id/tv_video_title"
+            style="@style/text_323232_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_toLeftOf="@id/ibtn_author_detail"
+            android:layout_toRightOf="@id/iv_class"
+            android:singleLine="true"
+            android:text="弗雷斯科大家福利时间到了分开时间都浪费降落伞打开房间里说的开房记录上的加夫里什江东父老开始江东父老家"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <TextView
+            android:id="@+id/tv_belong_zone"
+            style="@style/text_999999_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/selector_bg_layout"
+            android:drawableLeft="@drawable/player_new_zone"
+            android:drawablePadding="2dp" />
+
+        <TextView
+            android:id="@+id/tv_video_times"
+            style="@style/text_999999_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/player_new_seen"
+            android:layout_marginRight="10dp"
+            android:drawablePadding="2dp" />
+        <TextView
+            android:id="@+id/tv_paidashi_source"
+            style="@style/text_067bff_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/paidashi_blue_source_icon"
+            android:background="@drawable/selector_bg_layout"
+            android:drawablePadding="2dp"
+            android:layout_marginRight="10dp"
+            android:text="拍大师上传"
+            android:ellipsize="end"
+            />
+        <TextView
+            android:id="@+id/tv_phone_source"
+            style="@style/text_999999_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/phone_source_icon"
+            android:background="@drawable/selector_bg_layout"
+            android:drawablePadding="2dp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_video_des"
+        style="@style/text_999999_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="-10.5dp"
+        android:background="@drawable/selector_ffffffff_fff5f5f5"
+        android:singleLine="true"
+        android:visibility="visible" />
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_tools_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:scrollbars="none" />-->
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/c_e1e1e1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/tv_share"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:background="@drawable/selector_bg_layout"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/icon_video_detail_share"/>
+                <TextView
+                    android:id="@+id/tv_share_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#7d7d7d"
+                    android:textSize="14sp"
+                    android:text="分享"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/iv_red_packet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/video_detail_red_packet"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="20dp"
+                android:visibility="visible"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="20dp"
+            android:background="#e1e1e1"/>
+        <LinearLayout
+            android:id="@+id/tv_download"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/selector_bg_layout"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/icon_video_detail_download"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#7d7d7d"
+                android:textSize="14sp"
+                android:text="下载"/>
+        </LinearLayout>
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="20dp"
+            android:background="#e1e1e1"/>
+        <LinearLayout
+            android:id="@+id/tv_collection"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/selector_bg_layout"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/icon_video_detail_collection"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#7d7d7d"
+                android:textSize="14sp"
+                android:text="收藏"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/icon_video_detail_share"
+            android:text="分享"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="2">
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="20dp"
+                android:background="#e1e1e1"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/icon_video_detail_download"
+            android:text="下载"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="2">
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="20dp"
+                android:background="#e1e1e1"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#7d7d7d"
+            android:textSize="14sp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/icon_video_detail_collection"
+            android:text="收藏"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>-->
+
+    <include layout="@layout/item_gap_line" />
+
+    <include layout="@layout/item_video_detail_gift_list"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_middle_adver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="gone">
+
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/ad_gap_line"
+        layout="@layout/item_gap_line"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_middle_adver" />
+</LinearLayout>

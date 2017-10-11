@@ -8,6 +8,8 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 
+
+
     <application
         android:name="GMApplication"
         android:allowBackup="true"
@@ -24,6 +26,27 @@
             </intent-filter>
         </activity>
 
+        //QQ登录
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:noHistory="true"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent1106392335" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            />
+
+
+
+
+
         <activity android:name=".activity.CentreRankActivity"></activity>
         <activity android:name=".activity.HomePageActivity"></activity>
         <activity android:name=".activity.ImMainActivity"></activity>
@@ -31,6 +54,8 @@
    <activity android:name=".activity.DynamicActivity"></activity>
 
         <activity android:name=".activity.VideoDetialActivity"></activity>
+
+        <activity android:name=".activity.LoginActivity"></activity>
     </application>
 
 </manifest>

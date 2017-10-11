@@ -17,7 +17,9 @@ import android.widget.ViewFlipper;
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
+import com.sunfusheng.marqueeview.MarqueeView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import mymap.my_aipai.R;
@@ -38,9 +40,10 @@ public class HomeHeaderHolder extends BaseHolderRV {
 
     private SliderLayout sliderLayout;
     private RecyclerView recyclerView02;
-    private ViewFlipper viewFlipper;
+    //private ViewFlipper viewFlipper;
     private HomeCategoryAdapter gridAdapter;
     private pageData home;
+    private MarqueeView marqueeView;
 
     public HomeHeaderHolder(Context context, ViewGroup parent,
                             BaseAdapterRV adapter, int itemType) {
@@ -50,7 +53,8 @@ public class HomeHeaderHolder extends BaseHolderRV {
     @Override
     public void onFindViews(View itemView) {
         sliderLayout = (SliderLayout) itemView.findViewById(R.id.slider_layout);
-        viewFlipper = (ViewFlipper) itemView.findViewById(R.id.view_flipper);
+        //viewFlipper = (ViewFlipper) itemView.findViewById(R.id.view_flipper);
+        marqueeView = (MarqueeView) itemView.findViewById(R.id.marqueeView);
         recyclerView02 = (RecyclerView) itemView.findViewById(R.id.recycler_view_02);
         // 轮播图
 
@@ -59,12 +63,12 @@ public class HomeHeaderHolder extends BaseHolderRV {
                 context, 2, GridLayoutManager.HORIZONTAL, false));*/
 
 
-        // 热榜数据ViewFlipper
+     /*   // 热榜数据ViewFlipper
         viewFlipper.setInAnimation(AnimationUtils.loadAnimation(context,
                 R.anim.push_up_in));
         viewFlipper.setOutAnimation(AnimationUtils.loadAnimation(context,
                 R.anim.push_up_out));
-        viewFlipper.startFlipping();  // 开始执行动画
+        viewFlipper.startFlipping();  // 开始执行动画*/
     }
 
     @Override
@@ -92,20 +96,16 @@ public class HomeHeaderHolder extends BaseHolderRV {
      * @param hotSaleList
      */
     private void showViewFlipper(List<pageData.DataBean.OperationDataBean.DataListBean> hotSaleList) {
-        viewFlipper.removeAllViews();
-
-        for (pageData.DataBean.OperationDataBean.DataListBean bean : hotSaleList) {
-            TextView textView = new TextView(context);
-            textView.setText(bean.getTitle());
-             textView.setTextColor(Color.WHITE);
-            textView.setGravity(Gravity.CENTER_VERTICAL);
-            textView.setTextSize(14);
-
-            // TextView的高度为20dp
-            ViewGroup.LayoutParams param = new ViewGroup.LayoutParams(
-                    ViewGroup.LayoutParams.WRAP_CONTENT, Global.dp2px(20));
-            viewFlipper.addView(textView, param);
+       // viewFlipper.removeAllViews();
+        List<String> info = new ArrayList<>();
+       for (pageData.DataBean.OperationDataBean.DataListBean bean : hotSaleList) {
+           info.add(bean.getTitle());
         }
+
+        marqueeView.startWithList(info);
+
+// 在代码里设置自己的动画
+        marqueeView.startWithList(info, R.anim.anim_bottom_in, R.anim.anim_top_out);
     }
 
     /** 显示轮播图*/
